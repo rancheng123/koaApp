@@ -225,7 +225,17 @@ router.post('/user/login',async (ctx, next) => {
 
 
 
-
+router.get('/user/get', async (ctx, next)=>{
+    console.log('love you234')
+    debugger
+    var res = await new Promise((resolve, reject)=>{
+        resolve({
+            ok:'12562'
+        });
+        next();
+    })
+    ctx.body = res;
+})
 
 
 //查询user

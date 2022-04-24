@@ -1,6 +1,5 @@
 {
-  "restartable": "rs",
-  "delay": 600,
+
   "ignore": [".git", "node_modules/", "dist/", "coverage/"],
   "watch": ["src/"],
   "execMap": {

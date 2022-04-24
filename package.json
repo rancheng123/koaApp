@@ -5,8 +5,9 @@
   "main": "src/index.ts",
   "scripts": {
     "devKoaApp": "nodemon --config nodemon.json  src/index.ts",
+    "devKoaApp2": "nodemon --config nodemon.json  src/index2.ts",
     "devKoaApp:debug1": "DEBUG=info:http nodemon --config nodemon.json --inspect  src/index.ts",
-    "devKoaApp:debug": "nodemon --config nodemon.json --inspect src/index.ts"
+    "devKoaApp:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts"
   },
   "author": "rancheng <rancheng@zhibenyuan.cc>",
   "license": "UNLICENSED",
