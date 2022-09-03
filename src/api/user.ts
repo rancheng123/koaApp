@@ -159,7 +159,7 @@ router.post('/user/login',async (ctx, next) => {
                     "username",
                     'hello',
                     {
-                        //domain:'api-dev.userview.net', // 写cookie所在的域名
+                        //domain:'api-dev.111111111.net', // 写cookie所在的域名
                         domain:'localhost', // 写cookie所在的域名
                         sameSite: true,
                         path:'/',       // 写cookie所在的路径
